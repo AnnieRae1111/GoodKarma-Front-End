@@ -1,0 +1,82 @@
+    .hamburger {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 10;
+    display: none;
+    }
+
+    .hamburger:hover {
+    cursor: pointer;
+    }
+
+    .nav-item {
+    list-style: none;
+    }
+
+    .burger {
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    background: white;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+    }
+
+    .icon {
+    color: white;
+    }
+
+    @media only screen and (max-width: 480px) {
+    .hamburger {
+        display: inline-flex;
+        visibility: visible;
+        padding-top: 10px;
+        z-index: 10;
+        align-items: center;
+    }
+
+    .signup-link,
+    .signin-link,
+    .good-karma-link,
+    .feature-link {
+        display: none;
+        justify-content: flex-start;
+    }
+
+    .hamburger-menu {
+        margin-top: 100px;
+        width:400px;
+        position: absolute;
+        margin-left: 20px;
+    }
+
+    .ham-link {
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+        text-decoration: none;
+        margin-bottom: 5px;
+        font-size: 20px;
+        background-color: #40592e;
+        background-color: rgba(0,0,0,0.4);
+        width:100px;
+        border-radius: 20px;
+        border:1px solid white;
+        text-align: center;
+    }
+
+    .hamburger-links {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        height: 80px;
+    }
+
+    .ham-link:hover {
+        color: black;
+    }
+    }

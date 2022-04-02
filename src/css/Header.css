@@ -1,47 +1,34 @@
-@font-face {
+    @font-face {
     font-family: 'tangerineregular';
     src: url('/src/fonts/tangerine-webfont.woff2') format('woff2'),
-          url('/src/fonts/tangerine-webfont.woff') format('woff');
+        url('/src/fonts/tangerine-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    }
 
-}
-
-
-
-
-.header-container{
+    .header-container {
     height: 80px;
-    display:flex;
+    display: flex;
     justify-content: flex-start;
-    /* background-image: linear-gradient(to bottom right,#517360,#BAD9C8); */
-    background-color: #A68380;
-    /* background-color: black; */
-    /* background-color: #BAD9C8; */
+    background-color: #a68380;
+    }
 
-}
-
-
-
-.good-karma-link,
-.signup-link,
-.signin-link,
-.feature-link{
-    margin-left:10px;
+    .good-karma-link,
+    .signup-link,
+    .signin-link,
+    .feature-link {
+    margin-left: 10px;
     margin-top: 23px;
-    margin-right:10px;
-    color:white;
+    margin-right: 10px;
+    color: white;
     text-decoration: none;
     font-family: tangerineregular;
-    
-    
-    
-}
+    }
 
-.good-karma-logo{
+    .good-karma-logo {
     margin-top: 20px;
-    color:#40592E;
-    margin-left:40px;
+    color: #40592e;
+    margin-left: 40px;
     font-family: tangerineregular;
     font-size: 20px;
-}
+    }

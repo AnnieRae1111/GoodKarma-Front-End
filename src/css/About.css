@@ -1,32 +1,30 @@
-@font-face {
+    @font-face {
     font-family: 'tangerineregular';
     src: url('/src/fonts/tangerine-webfont.woff2') format('woff2'),
-          url('/src/fonts/tangerine-webfont.woff') format('woff');
+        url('/src/fonts/tangerine-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    }
 
-}
-
-.about-page-container{
-    display:flex;
+    .about-page-container {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
-}
+    justify-content: center;
+    }
 
-.about-thankyou{
+    .about-thankyou {
     font-family: tangerineregular;
-    margin:100px;
+    margin: 100px;
     text-align: center;
-    color:white;
-}
+    color: white;
+    }
 
-.about-image{
+    .about-image {
     height: 700px;
-    width:600px;
-    margin-bottom:100px;
+    width: 600px;
+    margin-bottom: 100px;
     border-radius: 500px 500px 0 0;
     border: 5px solid white;
-    padding: .5rem;
-   
-}
+    padding: 0.5rem;
+    }

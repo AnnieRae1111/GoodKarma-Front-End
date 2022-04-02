@@ -1,7 +1,7 @@
     @font-face {
-    font-family: "tangerineregular";
-    src: url("/src/fonts/tangerine-webfont.woff2") format("woff2"),
-        url("/src/fonts/tangerine-webfont.woff") format("woff");
+    font-family: 'tangerineregular';
+    src: url('/src/fonts/tangerine-webfont.woff2') format('woff2'),
+        url('/src/fonts/tangerine-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     }

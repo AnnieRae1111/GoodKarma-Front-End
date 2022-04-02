@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+/* Color Theme Swatches in Hex */
+.BASIK-1-hex { color: #8FA4BF; }
+.BASIK-2-hex { color: #03658C; }
+.BASIK-3-hex { color: #517360; }
+.BASIK-4-hex { color: #BAD9C8; }
+.BASIK-5-hex { color: #0D0D0D; }
+
+Blue {color:#496D8C}
+Dark Blue {color:#2E4559}
+off white {color:#f2EfC2}
+tan {color:#D9AB91}
+rus {color:#8C5549}
+
+/* Color Theme Swatches in Hex */
+.Mysterious-purple---red-tunnel-and-blue-sky-1-hex { color: #73020C; }
+.Mysterious-purple---red-tunnel-and-blue-sky-2-hex { color: #8D53A6; }
+.Mysterious-purple---red-tunnel-and-blue-sky-3-hex { color: #F29F05; }
+.Mysterious-purple---red-tunnel-and-blue-sky-4-hex { color: #F27405; }
+.Mysterious-purple---red-tunnel-and-blue-sky-5-hex { color: #F24405; }
+
+/* Color Theme Swatches in Hex */
+.abstract-watercolor-background-sunset-sky-orange-purple-1-hex { color: #8C546E; }
+.abstract-watercolor-background-sunset-sky-orange-purple-2-hex { color: #D9A7BE; }
+.abstract-watercolor-background-sunset-sky-orange-purple-3-hex { color: #B3E0F2; }
+.abstract-watercolor-background-sunset-sky-orange-purple-4-hex { color: #F2D3AC; }
+.abstract-watercolor-background-sunset-sky-orange-purple-5-hex { color: #F2C6AC; }
+
+
+/* Color Theme Swatches in Hex */
+.Tropical-Monstera-leaves-at-pastel-pink-background,-summer-background-with-copy-space-for-design,-template-or-banner-1-hex { color: #40592E; }
+.Tropical-Monstera-leaves-at-pastel-pink-background,-summer-background-with-copy-space-for-design,-template-or-banner-2-hex { color: #344028; }
+.Tropical-Monstera-leaves-at-pastel-pink-background,-summer-background-with-copy-space-for-design,-template-or-banner-3-hex { color: #8EA66A; }
+.Tropical-Monstera-leaves-at-pastel-pink-background,-summer-background-with-copy-space-for-design,-template-or-banner-4-hex { color: #A68380; }
+.Tropical-Monstera-leaves-at-pastel-pink-background,-summer-background-with-copy-space-for-design,-template-or-banner-5-hex { color: #F2D0D0; }
+
+
+
+
+body{
+  margin:0;
+  /* margin:10px; */
+  background-color:#40592E;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -1,0 +1,118 @@
+
+/* .landing-page-welcome {
+    position: relative;
+    left: 300px;
+    margin-bottom: 30px;
+}
+
+.landing-page-login {
+    position: relative;
+    left: 275px;
+    margin-bottom: 30px;
+
+} */
+
+@font-face {
+    font-family: 'tangerineregular';
+    src: url('/src/fonts/tangerine-webfont.woff2') format('woff2'),
+          url('/src/fonts/tangerine-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.account-text{
+    font-family: tangerineregular;
+}
+
+.account-page{
+    /* border:2px solid black; */
+    display:flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.login-welcome{
+    display:flex;
+    display:inline-block;
+    /* width: 100vh; */
+    height:150px;
+    justify-content: center;
+    align-items:center;
+
+    
+}
+
+.landing-page-welcome {
+   text-align:center;
+    /* position: relative; */
+    left: 300px;
+    margin-bottom: 30px;
+    font-family: tangerineregular;
+    color:white;
+    font-size:40px;
+}
+
+.landing-page-login {
+    text-align:center;
+    /* position: relative; */
+    justify-content: center;
+    align-items:center;
+    left: 275px;
+    margin-bottom: 30px;
+    font-family: tangerineregular;
+    color: white;
+
+}
+
+.buttons{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.account-text{
+    font-family: tangerineregular;
+}
+
+
+.account-buttons{
+    padding: .8rem;
+    border-radius:10px;
+    border: 4px solid  #A68380 !important;
+    background-color: #F2D0D0 !important;
+    color:black;
+    /* position: relative; */
+    align-items:center;
+    justify-content: center;
+    width:150px;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+.btn.btn-secondary{
+    background-color: #A68380 !important;
+    border:4px solid #F2D0D0 !important;
+    padding: .8rem;
+    margin-top:15px;
+}
+
+.login-input{
+    width:1000px;
+}
+
+@media only screen and (max-width: 500px){
+    .login-welcome{
+        width:350px;
+        align-items: center;
+        justify-content: center;
+    }
+    .buttons{
+        /* width:200px; */
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
